@@ -1,0 +1,120 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#bodyheader{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./assets/mouse.jpg");
+    background-attachment: fixed;
+    margin: 0;
+}
+.horizantallist{
+    list-style: none;
+   
+}
+.horizantallist li{
+    display: inline-block;
+    margin: 0px 15px 15px 0px;
+}
+.horizantallist li a{
+    color: lighblue;
+    text-decoration: none;
+   
+}
+.horizantallist li a:hover{
+    color: bisque;
+
+    border-bottom: 2px solid grey;
+    /* border-radius: 3px; */
+    height: 20px;
+}
+.headersheading{
+    color:bisque;
+}
+.textcenter {
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+}
+.headersheading{
+    margin-top: 80;
+}
+nav{
+    background-color:rgba(233, 222, 8, 0.627) ;
+    height:20px;
+    
+}
+.socialicons li a{
+    padding:10px;
+    font-size: 30px;
+    color:rgb(218, 196, 196);
+    border-radius: 50%;
+}
+#myimage{
+    height:12rem;
+    width:12rem;
+    margin:auto;
+    margin-top:-14vh;
+}
+#myimage img{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+#aboutpara{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.skillsheading{
+    font-weight: 150px;
+    font-size: 35px;
+}
+.myskills1{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.myskills {
+    height: auto;
+    width:10vh;
+    margin:20px;
+    /* border-radius: 40%; */
+    background-image: linear-gradient(to right,rgb(45, 219, 241),rgb(241, 118, 241));
+    padding:5px;
+    font-size:medium;
+    color:rgb(203, 232, 58) ;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+#skills{
+    margin-top:15vh;
+    height: 30vh;
+    background-size:cover;
+    background-color:rgb(234, 222, 222) ;
+    border-radius: 10%;
+    margin:50 50 50 50;
+    
+}
+ul li:hover{
+   color: rgb(1, 7, 11);
+   
+}
+#education{
+    margin-top:15vh;
+    height:30vh;
+    background-color: rgb(210, 240, 230);
+    /* border-radius:30%; */
+}
